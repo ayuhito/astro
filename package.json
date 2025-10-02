@@ -89,7 +89,9 @@
       "sharp"
     ],
     "overrides": {
-      "modern-tar": "latest"
+      "modern-tar": "latest",
+      "undici": "^6.21.3",
+      "wrangler": "4.14.1"
     }
   }
 }
