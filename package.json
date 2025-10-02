@@ -87,6 +87,9 @@
       "workerd",
       "@biomejs/biome",
       "sharp"
-    ]
+    ],
+    "overrides": {
+      "modern-tar": "latest"
+    }
   }
 }
