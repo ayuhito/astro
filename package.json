@@ -89,7 +89,7 @@
       "sharp"
     ],
     "overrides": {
-      "modern-tar": "latest",
+      "modern-tar": "https://pkg.pr.new/ayuhito/modern-tar@dc307a5",
       "undici": "^6.21.3",
       "wrangler": "4.14.1"
     }

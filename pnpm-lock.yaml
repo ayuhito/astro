@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  modern-tar: latest
+  modern-tar: https://pkg.pr.new/ayuhito/modern-tar@dc307a5
   undici: ^6.21.3
   wrangler: 4.14.1
 
@@ -11963,8 +11963,9 @@ packages:
   mlly@1.8.0:
     resolution: {integrity: sha512-l8D9ODSRWLe2KHJSifWGwBqpTZXIXTeo8mlKjY+E2HAakaTeNpqAyBZ8GSqLzHgw4XmHmC8whvpjJNMbFZN7/g==}
 
-  modern-tar@0.3.3:
-    resolution: {integrity: sha512-3Apv8azq9idziq37jJEz0j1myf/0+KMZtg6xKxiKsRoA52Fo6MyK7JSlc83fTVGZo/GwF4ghWe0C4rV5NQFZBQ==}
+  modern-tar@https://pkg.pr.new/ayuhito/modern-tar@dc307a5:
+    resolution: {tarball: https://pkg.pr.new/ayuhito/modern-tar@dc307a5}
+    version: 0.3.5
     engines: {node: '>=18.0.0'}
 
   module-definition@6.0.1:
@@ -14649,7 +14650,7 @@ snapshots:
 
   '@bluwy/giget-core@https://pkg.pr.new/ayuhito/giget-core/@bluwy/giget-core@77d7067':
     dependencies:
-      modern-tar: 0.3.3
+      modern-tar: https://pkg.pr.new/ayuhito/modern-tar@dc307a5
 
   '@capsizecss/unpack@2.4.0':
     dependencies:
@@ -20213,7 +20214,7 @@ snapshots:
       pkg-types: 1.3.1
       ufo: 1.6.1
 
-  modern-tar@0.3.3: {}
+  modern-tar@https://pkg.pr.new/ayuhito/modern-tar@dc307a5: {}
 
   module-definition@6.0.1:
     dependencies:
